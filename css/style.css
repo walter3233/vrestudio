@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   box-sizing: border-box;
 }
 
@@ -56,14 +58,10 @@ h2 {
   }
 }
 
-.imgtexto-inicio {
+.img-inicio {
   position: relative;
   display: inline-block;
   text-align: center;
-}
-
-.img-inicio {
-  position: relative;
 }
 
 @media only screen and (max-width: 576px) {
@@ -96,7 +94,7 @@ h2 {
   text-align: center;
   color: #FEE24F;
   position: absolute;
-  top: 50%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -106,7 +104,7 @@ h2 {
     text-align: center;
     color: #FEE24F;
     position: absolute;
-    top: 50%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -142,15 +140,12 @@ h2 {
   color: #FFA70D;
 }
 
-.estudio {
-  background-image: url(/imagenes/badgraund-estudio.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+.estudio-h2 {
+  font-size: 15px;
 }
 
 .texto-estudio {
-  height: 100px;
-  width: 300px;
+  padding: 10px;
   text-align: start;
   color: black;
 }
@@ -172,6 +167,16 @@ h2 {
   padding: 4% 2%;
   box-sizing: border-box;
   height: 100vh;
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    display: flex;
+    width: 20%;
+    padding: 2% 1%;
+    box-sizing: border-box;
+    height: 20vh;
+  }
 }
 
 .box {
@@ -198,6 +203,13 @@ h2 {
   line-height: 2.6;
 }
 
+@media only screen and (max-width: 576px) {
+  .box > span {
+    font-size: 0.8vh;
+    line-height: 9.6;
+  }
+}
+
 .box:hover {
   flex: 1 1 50%;
 }
@@ -213,20 +225,10 @@ h2 {
 
 .texto-diseño {
   color: #FEE24F;
-  height: 200px;
-}
-
-.texto-diseño-x {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 .diseño-carrucel {
   padding: 200px;
-}
-
-.z-02 {
   text-align: center;
 }
 

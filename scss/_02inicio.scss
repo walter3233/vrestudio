@@ -6,13 +6,10 @@
 padding-top: 30px;
     }
 }
-.imgtexto-inicio {
+.img-inicio {
     position: relative;
     display: inline-block;
     text-align: center;
-}
-.img-inicio {
-position: relative;
 }
 .titulo-inicio {
     @media only screen and (max-width: 576px) {
@@ -42,14 +39,14 @@ position: relative;
     text-align: center;
     color: $color3;
     position: absolute;
-    top: 50%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     @media only screen and (max-width: 576px) {
         text-align: center;
         color: $color3;
         position: absolute;
-        top: 50%;
+        top: 23%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
