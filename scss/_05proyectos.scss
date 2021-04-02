@@ -1,0 +1,40 @@
+
+.proyectos {
+    padding: 10px;
+    text-align: center;
+}
+
+.texto-proyecto-x {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.texto-proyecto {
+    height: 350px;
+}
+
+.texto-proyecto-subencavesado {
+    padding: 30px;
+}
+.proyecto-sub {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.proyecto-subx {
+
+    height: 150px;
+
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.proyecto-subx .proyectos-ico {
+    width: 50px;
+}

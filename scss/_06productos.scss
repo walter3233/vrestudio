@@ -1,0 +1,17 @@
+.productos {
+    padding: 330px;
+    background-color: rgb(250, 190, 190);
+}
+.img-productos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.img-pro {
+    margin: 10px;
+    margin-top: 60px;
+    padding: 70px;
+    background-color: yellow;
+    border: 1px solid black;
+}

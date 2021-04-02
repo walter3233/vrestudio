@@ -1,0 +1,36 @@
+@import '08variables';
+
+
+.h1-vr {
+    position: relative;
+    text-align: center;
+    top: -550px;
+    color: $color3;
+}
+
+.h2-subvr {
+    position: relative;
+    text-align: center;
+    top: -540px;
+    color: $color3;
+}
+
+.p-inicio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 130%;
+}
+
+.presupuesto {
+    position: relative;
+    left: 400px;
+    top: -70px;
+    text-decoration: none;
+    color: $color5;
+    margin: 500px;
+}
+
+.presupuesto:hover {
+    color: $color1;
+}

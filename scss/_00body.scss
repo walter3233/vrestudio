@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+@import '08variables';
+body {
+    background-color: silver;   
+}
+
+
+.container-fluid {
+    padding-right: var(--bs-gutter-x, .0);
+    padding-left: var(--bs-gutter-x, .0);
+    margin-right: 0;
+    margin-left: auto;
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1 {
+    font-family: 'Merriweather', serif ;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
