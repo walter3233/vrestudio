@@ -3,7 +3,7 @@
 
 .parrafo-inicio {
     @media only screen and (max-width: 576px) {
-padding-top: 70px;
+padding-top: 30px;
     }
 }
 .imgtexto-inicio {
@@ -15,9 +15,6 @@ padding-top: 70px;
 position: relative;
 }
 .titulo-inicio {
-    padding: 5px;
-
-
     @media only screen and (max-width: 576px) {
         font-size: 90%;
     }
@@ -30,6 +27,15 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
 
+    @media only screen and (max-width: 576px) {
+        text-align: center;
+        color: $color3;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
 
 .h2-subvr {
@@ -39,6 +45,14 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media only screen and (max-width: 576px) {
+        text-align: center;
+        color: $color3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 }
 
