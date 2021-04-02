@@ -1,3 +1,5 @@
+@import '08variables';
+
 * {
     padding: 0;
     margin: 0;
@@ -5,11 +7,9 @@
     box-sizing: border-box; 
 }
 
-@import '08variables';
 body {
-    background-color: silver;   
+    font-family: 'Montserrat', sans-serif; 
 }
-
 
 .container-fluid {
     padding-right: var(--bs-gutter-x, .0);
@@ -20,12 +20,8 @@ body {
     .row {
         --bs-gutter-x: 0;
     }
-
 }
-body {
-    font-family: 'Montserrat', sans-serif;
 
-}
 h1 {
     font-family: 'Merriweather', serif ;
     font-weight: 900 !important;

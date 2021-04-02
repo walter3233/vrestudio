@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: silver;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container-fluid {
@@ -19,10 +19,6 @@ body {
 
 .container-fluid .row {
   --bs-gutter-x: 0;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -37,6 +33,13 @@ h2 {
 
 .icono-vr {
   width: 5%;
+  display: block;
+}
+
+@media only screen and (max-width: 576px) {
+  .icono-vr {
+    display: none;
+  }
 }
 
 .grupo-header {
@@ -47,38 +50,66 @@ h2 {
   color: #FEE24F;
 }
 
+.inicio {
+  background-image: url(/imagenes/inicio.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .parrafo-inicio {
+    padding-top: 70px;
+  }
+}
+
+.titulo-inicio {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .titulo-inicio {
+    font-size: 90%;
+  }
+}
+
 .h1-vr {
-  position: relative;
   text-align: center;
-  top: -550px;
   color: #FEE24F;
 }
 
 .h2-subvr {
-  position: relative;
   text-align: center;
-  top: -540px;
   color: #FEE24F;
 }
 
 .p-inicio {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   font-size: 130%;
 }
 
-.presupuesto {
-  position: relative;
-  left: 400px;
-  top: -70px;
-  text-decoration: none;
-  color: black;
-  margin: 500px;
+@media only screen and (max-width: 576px) {
+  .p-inicio {
+    font-size: 70%;
+  }
 }
 
-.presupuesto:hover {
-  color: #085863;
+.presupuesto {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .presupuesto {
+    font-size: 60%;
+  }
+}
+
+.presupuesto .presupuesto:hover {
+  color: #FFA70D;
 }
 
 .estudio {

@@ -2,6 +2,11 @@
 
 .icono-vr {
     width: 5%;
+    display:block;
+
+    @media only screen and (max-width: 576px) {
+        display:none;
+    }
 }
 .grupo-header {
     background-color: $color2;
