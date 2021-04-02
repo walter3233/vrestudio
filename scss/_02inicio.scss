@@ -1,18 +1,23 @@
 @import '08variables';
 
-.inicio {
-    background-image: url(/imagenes/inicio.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
 
-}
 .parrafo-inicio {
     @media only screen and (max-width: 576px) {
 padding-top: 70px;
     }
 }
+.imgtexto-inicio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.img-inicio {
+position: relative;
+}
 .titulo-inicio {
     padding: 5px;
+
+
     @media only screen and (max-width: 576px) {
         font-size: 90%;
     }
@@ -20,11 +25,21 @@ padding-top: 70px;
 .h1-vr {
     text-align: center;
     color: $color3;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .h2-subvr {
     text-align: center;
     color: $color3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .p-inicio {
