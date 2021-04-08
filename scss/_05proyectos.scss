@@ -38,3 +38,44 @@
 .proyecto-subx .proyectos-ico {
     width: 50px;
 }
+.card-title {
+    @media only screen and (max-width: 576px) {
+font-size: 20%;
+    }
+}
+
+.card-text-00 {
+    @media only screen and (max-width: 576px) {
+        font-size: 20%;
+            }
+
+}
+.card-text-01 {
+    @media only screen and (max-width: 576px) {
+        font-size: 20%;
+            }
+}
+.card-text-02 {
+    @media only screen and (max-width: 576px) {
+        font-size: 20%;
+            }
+
+}
+.card-text-03 {
+    @media only screen and (max-width: 576px) {
+        font-size: 20%;
+            }
+
+}
+
+.card-link {
+    @media only screen and (max-width: 576px) {
+        font-size: 20%;
+            }
+}
+.card-link+.card-link {
+    @media only screen and (max-width: 576px) {
+        margin-left: 0em !important;
+            }
+
+}

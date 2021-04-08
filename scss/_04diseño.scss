@@ -1,15 +1,13 @@
-.diseño {
-background-color: $color2;
-}
+@import '08variables';
 
-.texto-diseño {
-    color: $color3 ;
-}
 .diseño-carrucel {
     padding: 200px;
     text-align: center;
 }
-
+.z-01 {
+    display: flex;
+    justify-content: center;
+}
 .z-05 {
     text-align: center;
 }

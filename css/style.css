@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
-  padding: 0;
+  padding-right: var(--bs-gutter-x, 0px) !important;
+  padding-left: var(--bs-gutter-x, 0px) !important;
   margin: 0;
   width: 100%;
   margin-left: 0;
@@ -13,8 +14,8 @@ body {
 }
 
 .container-fluid {
-  padding-right: var(--bs-gutter-x, 0);
-  padding-left: var(--bs-gutter-x, 0);
+  padding-right: var(--bs-gutter-x, 0px);
+  padding-left: var(--bs-gutter-x, 0px);
   margin-right: 0;
   margin-left: auto;
 }
@@ -52,12 +53,6 @@ h2 {
   color: #FEE24F;
 }
 
-@media only screen and (max-width: 576px) {
-  .parrafo-inicio {
-    padding-top: 30px;
-  }
-}
-
 .img-inicio {
   position: relative;
   display: inline-block;
@@ -81,11 +76,11 @@ h2 {
 
 @media only screen and (max-width: 576px) {
   .h1-vr {
-    text-align: center;
+    text-align: right;
     color: #FEE24F;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 28%;
+    left: 45%;
     transform: translate(-50%, -50%);
   }
 }
@@ -101,11 +96,11 @@ h2 {
 
 @media only screen and (max-width: 576px) {
   .h2-subvr {
-    text-align: center;
+    text-align: right;
     color: #FEE24F;
     position: absolute;
-    top: 23%;
-    left: 50%;
+    top: 31%;
+    left: 45%;
     transform: translate(-50%, -50%);
   }
 }
@@ -119,7 +114,13 @@ h2 {
 
 @media only screen and (max-width: 576px) {
   .p-inicio {
-    font-size: 70%;
+    font-size: 105%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .parrafo-inicio {
+    padding-top: 30px;
   }
 }
 
@@ -132,6 +133,10 @@ h2 {
 
 @media only screen and (max-width: 576px) {
   .presupuesto {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
     font-size: 60%;
   }
 }
@@ -219,17 +224,14 @@ h2 {
   height: 100%;
 }
 
-.diseño {
-  background-color: #009E8F;
-}
-
-.texto-diseño {
-  color: #FEE24F;
-}
-
 .diseño-carrucel {
   padding: 200px;
   text-align: center;
+}
+
+.z-01 {
+  display: flex;
+  justify-content: center;
 }
 
 .z-05 {
@@ -274,27 +276,92 @@ h2 {
   width: 50px;
 }
 
-.productos {
-  padding: 330px;
-  background-color: #fabebe;
+@media only screen and (max-width: 576px) {
+  .card-title {
+    font-size: 20%;
+  }
 }
 
-.img-productos {
+@media only screen and (max-width: 576px) {
+  .card-text-00 {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-text-01 {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-text-02 {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-text-03 {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-link {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-link + .card-link {
+    margin-left: 0em !important;
+  }
+}
+
+.productos-card {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.img-pro {
-  margin: 10px;
-  margin-top: 60px;
-  padding: 70px;
-  background-color: yellow;
-  border: 1px solid black;
+.productos-h2 {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.card-title {
+  font-size: 90%;
+}
+
+@media only screen and (max-width: 576px) {
+  .card-title {
+    font-size: 90%;
+  }
+}
+
+.card-link {
+  font-size: 90%;
+}
+
+@media only screen and (max-width: 576px) {
+  .card-link {
+    font-size: 90%;
+  }
 }
 
 .footer {
   padding: 10px;
-  background-color: red;
+}
+
+.footer .icon-grupo {
+  display: flex;
+  width: 30%;
 }
 /*# sourceMappingURL=style.css.map */

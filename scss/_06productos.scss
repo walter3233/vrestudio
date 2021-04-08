@@ -1,17 +1,32 @@
-.productos {
-    padding: 330px;
-    background-color: rgb(250, 190, 190);
-}
-.img-productos {
+.productos-card {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+
+.productos-h2{
+display: flex;
+justify-content: center;
+}
+.card {
+    @media only screen and (max-width: 576px) {
+        display: flex;
+        justify-content: center;
+            }
 
 }
-.img-pro {
-    margin: 10px;
-    margin-top: 60px;
-    padding: 70px;
-    background-color: yellow;
-    border: 1px solid black;
+
+.card-title {
+    font-size: 90%;
+    @media only screen and (max-width: 576px) {
+        font-size: 90%;
+            }
+}
+
+.card-link {
+    font-size: 90%;
+    @media only screen and (max-width: 576px) {
+        font-size: 90%;
+            }
 }
